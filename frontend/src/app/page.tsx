@@ -120,7 +120,7 @@ export default function HomePage() {
                 borderRadius: 2,
               }}
             >
-              COGNITIVE TWIN
+              Chronexis
             </div>
             <span className="sec-label hidden sm:block">venture risk simulator</span>
           </div>
@@ -331,8 +331,8 @@ export default function HomePage() {
       {/* ── Footer ─────────────────────────────────────────────────── */}
       <footer className="border-t" style={{ borderColor: "rgba(255,255,255,0.04)" }}>
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <span className="sec-label">COGNITIVE TWIN v2</span>
-          <span className="sec-label">800 runs · Gemini 1.5 Flash · MongoDB Atlas</span>
+          <span className="sec-label">Chronexis</span>
+          <span className="sec-label">800 runs · Gemini 3.0 Flash · MongoDB Atlas</span>
         </div>
       </footer>
     </div>

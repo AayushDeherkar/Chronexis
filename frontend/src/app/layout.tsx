@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Cognitive Twin — Venture Risk Simulator",
+  title: "Chronexis — Venture Risk Simulator",
   description: "800-run Monte Carlo simulation. Identify bottlenecks, failure modes, and role overload before you build.",
 };
 
