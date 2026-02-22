@@ -5,7 +5,7 @@ const GEMINI_URL =
 
 // ─── Low-level HTTP call with retry ──────────────────────────────────────────
 
-async function callGemini(prompt: string, retries = 3): Promise<string> {
+async function callGemini(prompt: string, retries = 1): Promise<string> {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) throw new Error("GEMINI_API_KEY is not set");
 
