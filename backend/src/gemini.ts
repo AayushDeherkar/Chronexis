@@ -1,7 +1,7 @@
 import type { VentureModel, VentureModule, SimInsights, TeamMember } from "./types";
 
 const GEMINI_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
 // ─── Low-level HTTP call with retry ──────────────────────────────────────────
 
