@@ -38,42 +38,6 @@ AI recommendations
 First 10 priority tasks for Day 1
 
 
-Project Structure
-chronexis/
-├── frontend/                  # Next.js app
-│   ├── src/
-│   │   └── app/
-│   │       ├── page.tsx           # Main input form
-│   │       ├── layout.tsx         # App layout + metadata
-│   │       ├── globals.css        # Terminal aesthetic styles
-│   │       ├── components/        # Chart + UI components
-│   │       │   ├── TeamBuilder.tsx
-│   │       │   ├── InsightsPanel.tsx
-│   │       │   ├── KpiCards.tsx
-│   │       │   ├── FinishHistogram.tsx
-│   │       │   ├── FailureModeChart.tsx
-│   │       │   ├── BottleneckChart.tsx
-│   │       │   ├── RiskHeatmap.tsx
-│   │       │   ├── RoleOverload.tsx
-│   │       │   └── SectionHeader.tsx
-│   │       ├── lib/
-│   │       │   ├── api.ts         # API calls + TypeScript types
-│   │       │   └── sample.ts      # Sample venture data
-│   │       └── results/
-│   │           └── [simRunId]/
-│   │               └── page.tsx   # Results page
-│   ├── tailwind.config.ts
-│   └── vercel.json
-│
-└── backend/                   # Express API
-    └── src/
-        ├── index.ts           # Server entry point
-        ├── types.ts           # Shared TypeScript types
-        ├── gemini.ts          # Gemini API integration
-        ├── simulation.ts      # Monte Carlo engine
-        ├── db.ts              # MongoDB connection
-        └── routes/
-            └── venture.ts     # API routes
 
 Local Setup
 Prerequisites
